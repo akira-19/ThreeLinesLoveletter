@@ -1,0 +1,405 @@
+/* General */
+body{
+    font-family:"Book Antiqua", 'Georgia';
+}
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+}
+
+
+/* top page */
+.container-fluid{
+  margin: 0px;
+  padding: 0px;
+}
+
+#top-page{
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    width: 100%;
+    background: black url("../images/background.jpg") no-repeat fixed center;
+}
+.title-text{
+    width: 100%;
+}
+.title-text h2{
+    font-weight: bold;
+    font-family: "sanserif";
+}
+
+.topText{
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 50px;
+    width: 100%;
+
+}
+.topText p{
+    margin: 8px;
+}
+
+@media screen and (min-width: 1501px) {
+    .title-text h2{
+        padding-top: 80px;
+        padding-left: 80px;
+        color: white;
+        font-size: 4em;
+    }
+
+    .topText p{
+        font-size: 1.2em;
+        color: white;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+   .title-text h2{
+       padding-top: 80px;
+       padding-left: 80px;
+       color: white;
+       font-size: 3.3em;
+   }
+
+   .topText p{
+       font-size: 1.0em;
+       color: white;
+   }
+}
+
+#links{
+    width: 50%;
+    margin: 10px auto;
+    background: rgba(100, 100, 100, 0.3);
+    padding: 5px 0;
+}
+
+
+#links a {
+    font-family: cursive;
+  display: block;
+  padding: 0.3em 1em;
+  text-align: center;
+  width: 80%;
+  margin: 20px auto;
+  text-decoration: none;
+  color: white;
+  border: solid 2px #ffb72b;
+  border-radius: 3px;
+  transition: .4s;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+#links a:hover {
+  background: #ffb72b;
+  color: white;
+}
+
+/* modal window for read letter*/
+.modalContent{
+    margin-top: 10px;
+}
+.modalContent span{
+    width: 140px;
+    display: inline-block;
+    text-align: right;
+}
+.modalContent input{
+    width: 300px;
+    margin-left: 10px;
+}
+
+/* modal window for instruction */
+
+
+/* writeLetter */
+.letter{
+    padding-top: 15px;
+}
+
+/* first design */
+.firstFormat .writeLetter{
+    margin: 3vh auto;
+    width: 70vw;
+    height: 70vh;
+    background-image: url("../images/letter1.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.firstFormat .lines{
+    border-color: rgba(1, 1, 1, 0);
+    background: rgba(1, 1, 1, 0);
+    font-size: 22px;
+    font-family: cursive;
+    color: white;
+}
+
+.firstFormat .lines::placeholder{
+    color: #AAA;
+}
+
+.firstFormat .sendTo{
+    position: absolute;
+    top: 10%;
+    right: 3%;
+    width: 55%;
+
+}
+.firstFormat .date{
+    position: absolute;
+    top: 20%;
+    right: 3%;
+    width: 20%;
+}
+.firstFormat .fLine{
+    position: absolute;
+    top: 35%;
+    right: 3%;
+    width: 55%;
+}
+.firstFormat .sLine{
+    position: absolute;
+    top: 50%;
+    right: 3%;
+    width: 55%;
+}
+.firstFormat .tLine{
+    position: absolute;
+    top: 65%;
+    right: 3%;
+    width: 55%;
+}
+.firstFormat .writer{
+    position: absolute;
+    top: 80%;
+    right: 5%;
+}
+
+/* second letter */
+.secondFormat .writeLetter{
+    margin: 3vh auto;
+    width: 70vw;
+    height: 70vh;
+    background-image: url("../images/letter2.jpg");
+    background-size: cover;
+    position: relative;
+}
+.secondFormat .lines{
+    border-color: rgba(1, 1, 1, 0);
+    background: rgba(1, 1, 1, 0);
+    font-size: 22px;
+    font-family: cursive;
+}
+
+.secondFormat .sendTo{
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    width: 65%;
+
+}
+.secondFormat .date{
+    position: absolute;
+    top: 20%;
+    right: 3vw;
+    width: 20%;
+}
+.secondFormat .fLine{
+    position: absolute;
+    top: 35%;
+    right: 5%;
+    width: 65%;
+}
+.secondFormat .sLine{
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    width: 65%;
+}
+.secondFormat .tLine{
+    position: absolute;
+    top: 65%;
+    right: 5%;
+    width: 65%;
+}
+.secondFormat .writer{
+    position: absolute;
+    top: 80%;
+    right: 5%;
+}
+
+/* third design */
+.thirdFormat .writeLetter{
+    margin: 3vh auto;
+    width: 70vw;
+    height: 70vh;
+    background-image: url("../images/letter3.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.thirdFormat .lines{
+    border-color: rgba(1, 1, 1, 0);
+    background: rgba(1, 1, 1, 0);
+    font-size: 22px;
+    font-family: cursive;
+    color: white;
+}
+
+.thirdFormat .lines::placeholder{
+    color: #AAA;
+}
+
+.thirdFormat .sendTo{
+    position: absolute;
+    top: 10%;
+    right: 3%;
+    width: 55%;
+
+}
+.thirdFormat .date{
+    position: absolute;
+    top: 20%;
+    right: 3%;
+    width: 20%;
+}
+.thirdFormat .fLine{
+    position: absolute;
+    top: 35%;
+    right: 3%;
+    width: 55%;
+}
+.thirdFormat .sLine{
+    position: absolute;
+    top: 50%;
+    right: 3%;
+    width: 55%;
+}
+.thirdFormat .tLine{
+    position: absolute;
+    top: 65%;
+    right: 3%;
+    width: 55%;
+}
+.thirdFormat .writer{
+    position: absolute;
+    top: 80%;
+    right: 5%;
+}
+
+/* forth design */
+.forthFormat .writeLetter{
+    margin: 3vh auto;
+    width: 70vw;
+    height: 70vh;
+    background-image: url("../images/letter4.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.forthFormat .lines{
+    border-color: rgba(1, 1, 1, 0);
+    background: rgba(1, 1, 1, 0);
+    font-size: 22px;
+    font-family: cursive;
+}
+
+.forthFormat .lines::placeholder{
+    color: #AAA;
+}
+
+.forthFormat .sendTo{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    width: 45%;
+
+}
+.forthFormat .date{
+    position: absolute;
+    top: 20%;
+    right: 15%;
+    width: 20%;
+}
+.forthFormat .fLine{
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    width: 85%;
+}
+.forthFormat .sLine{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    width: 85%;
+}
+.forthFormat .tLine{
+    position: absolute;
+    top: 65%;
+    left: 5%;
+    width: 85%;
+}
+.forthFormat .writer{
+    position: absolute;
+    top: 75%;
+    right: 5%;
+}
+
+#passphraseWrap{
+    margin-left: 15vw;
+    font-size: 22px;
+    margin-top: 30px;
+}
+
+#passphrase{
+    width: 40vw;
+    padding-left: 5px;
+}
+
+#btnWrapper{
+    width: 70vw;
+    margin: 15px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.letterFormat {
+  display: inline-block;
+  padding: 7px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #FFF;
+  background-image: linear-gradient(45deg, #3795fd 0%, #37cefd 100%);
+  transition: .4s;
+}
+
+.letterFormat:hover {
+  background-image: linear-gradient(45deg, #2795fd 0%, #27ceff 70%);
+}
+
+
+#sendBtn {
+  position: relative;
+  display: inline-block;
+  padding: 0.25em 0.5em;
+  text-decoration: none;
+  color: #FFF;
+  background: #03A9F4;/*色*/
+  border: solid 1px #0f9ada;/*線色*/
+  border-radius: 4px;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.2);
+  text-shadow: 0 1px 0 rgba(0,0,0,0.2);
+  font-size: 18px;
+}
+
+#sendBtn:hover {
+  border: solid 1px #03A9F4;
+  background: #03A9FF;
+  box-shadow: none;
+  text-shadow: none;
+  font-size: 18px;
+
+}
